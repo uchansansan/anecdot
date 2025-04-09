@@ -6,12 +6,12 @@ A simple web application built with Streamlit and FastAPI that processes text in
 
 1. Install the required dependencies:
 ```bash
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 2. Start the backend server:
 ```bash
-python backend.py
+python3 backend.py
 ```
 
 3. In a new terminal, start the Streamlit frontend:
