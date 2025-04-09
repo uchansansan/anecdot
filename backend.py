@@ -20,7 +20,7 @@ class TextInput(BaseModel):
 async def process_text(input_data: TextInput):
     # Here you can add your text processing logic
     # For now, we'll just return a simple response
-    return {"response": f"Processed text: {input_data.text}"}
+    return {"response": f"{input_data.text}"}
 
 if __name__ == "__main__":
     import uvicorn
